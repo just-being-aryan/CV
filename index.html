@@ -2,99 +2,82 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Aryan's Homepage</title>
+    <title>Aryan's Personal Website</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" href="favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:wght@400;700&family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <table cellspacing="30">
-      <tr>
-        <td>
-          <img src="images/Aryan.gif" alt="Aryan Profile Picture" />
-        </td>
-        <td>
-          <h1><strong>Aryan S</strong></h1>
-          <p>
-            <em
-              >Founder and CEO of
-              <strong
-                ><a href="https://appbrewery.com/">App Brewery</a></strong
-              ></em
-            >
-          </p>
-          <p>
-            I am an IOS and Web Developer, I love Coffee and Brew my Own Beers
-          </p>
-        </td>
-      </tr>
-    </table>
-    <hr size="3" no shade />
-    <h2>Books and Teaching</h2>
-    <ul>
-      <li>The Complete iOS App Development Bootcamp</li>
-      <li>The Complete Web Development Bootcamp</li>
-    </ul>
-    <a href="Hobbies.html">My Hobbies</a>
+    <div class="top-container">
+      <img class="top-cloud" src="images/cloud.png" alt="cloud pic" />
+      <h1>I'm Aryan</h1>
+      <p>
+        <h2>
+        <span><strong>A Web</strong></span>
+        <span><strong>Developer</strong></span>
+        <img class="coding" src="images/coding.png" />
+      </h2>
+      </p>
+      <img class="bottom-cloud" src="images/cloud.png" alt="Cloud Pic" />
+      <img src="images/mountain.png" alt="Mountain Pic" />
+    </div>
     <br />
-    <a href="Contacts.html">Contact Me</a>
-    <hr />
-    <h1>Work Experience</h1>
-    <br />
-    <table cellspacing="10">
-      <thead>
-        <tr>
-          <th>Dates</th>
-          <th>Work</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>2010-2013</td>
-          <td>Lead Development at Tempo App</td>
-        </tr>
-        <tr>
-          <td>2010</td>
-          <td>Researcher at the Institute of Cognitive Neroscience</td>
-        </tr>
-      </tbody>
-    </table>
-    <hr />
-    <h3><strong>Skills</strong></h3>
-    <table cellspacing="10">
-      <tr>
-        <td>Bootstrap Framework</td>
-        <td>⭐⭐⭐⭐⭐</td>
-        <td>MVC Pattern</td>
-        <td>⭐⭐⭐⭐</td>
-      </tr>
-      <tr>
-        <td>CSS(3)</td>
-        <td>⭐⭐⭐⭐⭐</td>
-        <td>Method Factory Program</td>
-        <td>⭐⭐⭐⭐</td>
-      </tr>
-      <tr>
-        <td>HTML(5)</td>
-        <td>⭐⭐⭐⭐⭐</td>
-        <td>Object Oriented Programming</td>
-        <td>⭐⭐⭐⭐</td>
-      </tr>
-      <tr>
-        <td>jSON</td>
-        <td>⭐⭐⭐⭐</td>
-        <td>SASS/SCSS</td>
-        <td>⭐⭐⭐⭐</td>
-      </tr>
-      <tr>
-        <td>MySQL</td>
-        <td>⭐⭐⭐</td>
-        <td>SEO</td>
-        <td>⭐⭐⭐⭐</td>
-      </tr>
-      <tr>
-        <td>PHP</td>
-        <td>⭐⭐⭐⭐</td>
-        <td>Scrum</td>
-        <td>⭐⭐⭐⭐</td>
-      </tr>
-    </table>
+    <div class="middle-container">
+      <div class="profile">
+        <img class = "display" src="images/ARYAN.png" alt="Profile-pic">
+        <h2>Hello.</h2>
+        <p class = "intro">
+          I am an iOS and Web Developer. I'm the founder and
+          CEO of The App Brewery. I ❤️ coffee and brew my own
+          beers.
+        </p>
+      </div>
+      <hr/>
+      <div class="skills">
+        <h2>My Skills.</h2>
+        <div class="skill-row">
+          <img class="skill" src="images/skills.png" alt="skills" />
+          <h3>Design and Development</h3>
+          <p>
+            I like to keep it simple.my goals are to focus on typography,
+            content and conveying the message that you want to send.
+          </p>
+        
+        </div>
+        <div class="skill-row">
+          <img class="hotel" src="images/hotel.png" alt="" />
+          <h3>Hot wings challenge</h3>
+          <p class = "project-description">
+            But my best skill is actually in eating hot wings. I am the 
+            undisputed queen of hot wing challenges. Ghost Peppers and 
+            Carolina Reapers are my favourite snacks.
+          </p>
+        </div>
+      </div>
+      <hr/>
+      <div class="Contact-me">
+        <h2>Get In Touch</h2>
+        <h3>If you love hot wings as much as i do.</h3>
+        <p class = "contact-messsage">
+          Love hot wings as much as i do? Let's talk about how awesome they are ! <br>
+          We can code while we eat hot wings !
+        </p>
+        <br>
+        <br>
+        <a class="btn" href="mailto:name@email.com">CONTACT ME</a>
+      </div>
+    </div>
+
+    <div class="bottom-container">
+      <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+      <a class="footer-link" href="https://twitter.com/">Twitter</a>
+      <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+      <p class = "copyright">© Aryan Sachdeva.</p>
+    </div>
   </body>
 </html>
